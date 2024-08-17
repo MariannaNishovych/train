@@ -46,14 +46,14 @@
 //рядок у форматі годин і хвилин
 //70 === 01:10
 
-function formateTime(minutes) {
+// function formateTime(minutes) {
 
-    const hours = Math.floor(minutes / 60);
-    const minute = minutes % 60;
+//     const hours = Math.floor(minutes / 60);
+//     const minute = minutes % 60;
 
-    return `${hours}:${minute}`;
-}
+//     return `${hours}:${minute}`;
+// }
 
-console.log(formateTime(70));
-console.log(formateTime(100));
-console.log(formateTime(210));
+// console.log(formateTime(70));
+// console.log(formateTime(100));
+// console.log(formateTime(210));
