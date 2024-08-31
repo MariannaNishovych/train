@@ -31,19 +31,20 @@
 //showProduct(product) - коллбек приймаючий об'єкт
 //продукту і логірующий їх у консоль
 
-const makeProduct = (name, price, callback) => {
-    const product = {
-        name,
-        price,
-        id: Math.random()
-    }
+// const makeProduct = (name, price, callback) => {
+//     const product = {
+//         name,
+//         price,
+//         id: Math.random()
+//     }
 
-callback(product);
+// callback(product);
 
-};
+// };
 
-const showProduct = product => { 
-    console.log(product);
-}
+// const showProduct = product => {
+//     console.log(product);
+// }
 
-makeProduct('iphone', 1000, showProduct)
+// makeProduct('iphone', 1000, showProduct)
+
